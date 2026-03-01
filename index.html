@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>pancake</title>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="header">
+        <img src="profile.jpg" alt="Support" class="header-image">
+        <h1>To Pancake</h1>
+        <p class="sub">ตื่นมาอ่านหนังสือด้วย</p>
+    </div>
+
+    <div class="heart-section">
+        <button class="heart-btn" id="heartBtn">🤍</button>
+        <p class="click-text">กดรูปหัวใจตามกำหนด</p>
+        
+        <div class="counter-text">
+            เก็บพลังงานได้ <span id="clickCount">0</span> / <span id="targetCount">10</span> แล้ว
+        </div>
+    </div>
+
+    <div class="note-section">
+        <p class="note-text">
+            ขอให้วันนี้ติ๋มทำขอสอบได้ <br>
+            มั่นใจในตัวเองเข้าไว้นะ สอบเสร็จแล้ว <br>
+            เดี๋ยวพาไปเที่ยวขับรถเล่นถ้าอยากไปอ่ะนะเดี๋ยวตามใจติ๋ม 1 วัน <br>
+            <span class="highlight">สู้ๆนะติ๋ม</span>
+        </p>
+    </div>
+
+    <div id="popupOverlay" class="popup-overlay">
+        <div class="popup-content">
+            <h2 id="popupTitle">Good girl</h2>
+            <p id="popupMessage"></p>
+            <button onclick="closePopup()" class="close-btn">จะกดต่อมั้ย</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
