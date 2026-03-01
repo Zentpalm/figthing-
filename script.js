@@ -12,7 +12,7 @@ const loveMessages = [
     "ตั้งใจอ่านติ๋มทำได้อยู่แล้ว!",
     "สู้ๆนะติ๋มวันท้ายแล้วทำเต็มที่",
     "ขอให้ข้อสอบออกง่ายๆติ๋มจะได้ทำได้",
-    "เสู้ๆเกรด 4 กำลังมา"
+    "สู้ๆเกรด 4 กำลังมา"
 ];
 
 heartBtn.addEventListener('click', () => {
@@ -58,4 +58,5 @@ function createSparkle() {
         fill: 'forwards'
     });
     animation.onfinish = () => sparkle.remove();
+
 }
